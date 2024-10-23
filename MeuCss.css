@@ -50,7 +50,9 @@ body{
 .botao{
     color: black;
     background-color: #BC103B;
+    text-align: center;
     border-radius: 8px;
+    width: 240px;
     padding: 10px 20px;
     font-family: 'Tomorrow', sans-serif;
     font-size: 24px;
