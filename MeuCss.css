@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Tomorrow:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background-color: black;
+    box-sizing: border-box;
+    color: #ffff;
+    
+}
+
+.tudo{
+    margin: 10% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.conteudo{
+    width: 620px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.titulo{
+    font-family: 'Tomorrow', sans-serif;
+    font-size: 36px;
+}
+
+.titulo_call{
+    color: #BC103B;
+}
+
+.description{
+    font-family: "Noto Sans", serif;
+    font-size: 24px;
+}
+
+
+.links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.botao{
+    color: black;
+    background-color: #BC103B;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-family: 'Tomorrow', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+
+}
